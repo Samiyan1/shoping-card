@@ -8,11 +8,11 @@
 }
 
 a {
-  color: #b8b6b6;
+  transition: .5s ;
 }
 
 a:hover {
-  color: rgb(0, 0, 0);
+  transition: .5s ;
 }
 
 header {
@@ -37,8 +37,9 @@ header {
   }
 
   p {
-    margin-left: 4vw;
-    font-size: .8rem;
+    margin-left: 2vw;
+    font-size: 1rem;
+    color: #6d6d6d;
   }
 
 }

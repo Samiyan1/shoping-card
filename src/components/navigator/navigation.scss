@@ -68,4 +68,16 @@ nav {
 }
 .basket-btn{
   margin-left: 10vw;
+  width: 52px;
+  img{margin: auto;}
+  transition: .2s;
+  border-radius: 50px;
+
+}
+.basket-btn:focus,
+.basket-btn:focus-visible{
+  border-radius: 50px;
+  background-color: #aaa;
+  transition: .2s;
+
 }

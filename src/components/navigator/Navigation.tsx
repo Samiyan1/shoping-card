@@ -10,7 +10,7 @@ function Navigation() {
                 <li><a href="#">پرفروش ترین</a></li>
                 <li><a href="#">جدیدترین</a></li>
             </ul>
-            <button><img className='basket-btn' src={basket}></img></button>
+            <button className='basket-btn'><img src={basket}></img></button>
         </nav>
         )
 }
