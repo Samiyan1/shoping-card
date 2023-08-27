@@ -1,6 +1,7 @@
 
 import Navbar from '../../components/navbar/Navbar'
 import Navigation from '../../components/navigator/Navigation'
+import Products from '../../components/products/Products'
 import './homePage.scss'
 function HomePage() {
 
@@ -28,6 +29,7 @@ function HomePage() {
    <>
     <Navbar/>
     <Navigation/>
+    <Products/>
     </>
   )
 }

@@ -1,0 +1,23 @@
+main{
+    width: 70%;
+    margin: 40px auto;
+    h1 {
+        font-size: 3em;
+        line-height: 1.1;
+        color: #8a8888;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        li{
+            margin-left: 27px;
+            width: 266px;
+            height: 370px;
+            background-color: #8a8888;
+            margin-bottom: 70px;
+        }
+    }
+}
+
+  
