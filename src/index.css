@@ -4,17 +4,30 @@
 
 @font-face {
   font-family: 'Vazir';
-  src: url('../public/fonts/vazir/Vazir.ttf'); /* IE9 Compat Modes */
-  src: url('../public/fonts/vazir/Vazir-Medium.eot') format('embedded-opentype'), /* IE6-IE8 */
-         url('../public/fonts/vazir/Vazir.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../public/fonts/vazir/Vazir.woff') format('woff'), /* Pretty Modern Browsers */
-         url('../public/fonts/vazir/Vazir.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.ttf'); /* IE9 Compat Modes */
+  src: url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.eot') format('embedded-opentype'), /* IE6-IE8 */
+         url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: 'VazirBold';
-  src: url('../public/font/vazir/Vazir-Bold.ttf') format('truetype');
+  src: url('../public/fonts/vazir/Farsi-Digits-Without-Latin//Vazir-Bold-FD-WOL.ttf'); /* IE9 Compat Modes */
+  src: url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.eot') format('embedded-opentype'), /* IE6-IE8 */
+         url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
+@font-face {
+  font-family: 'VazirLight';
+  src: url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.ttf'); /* IE9 Compat Modes */
+  src: url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.eot') format('embedded-opentype'), /* IE6-IE8 */
+         url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../public/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
 :root {
   font-family: Vazir , system-ui, Helvetica, Arial, sans-serif;
   line-height: 1.5;

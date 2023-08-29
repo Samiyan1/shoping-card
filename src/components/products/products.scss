@@ -1,23 +1,104 @@
-main{
+$mainColor: #EC407A;
+
+main {
     width: 70%;
     margin: 40px auto;
+
     h1 {
-        font-size: 3em;
-        line-height: 1.1;
+        font-size: 2em;
+        line-height: 1;
         color: #8a8888;
     }
-    ul{
+
+    ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        li{
-            margin-left: 27px;
+
+        li {
+            outline: none;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .06);
+            margin-left: 24px;
             width: 266px;
             height: 370px;
-            background-color: #8a8888;
-            margin-bottom: 70px;
+            margin-bottom: 30px;
+        }
+
+        li:hover {
+            transition: all .5s ease;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, .61);
         }
     }
 }
+.product:hover {
+    .product-price {
+       background-color:#FF0056;
+       color: white;
 
-  
+        .toman {
+          color: white;
+        }
+    }
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .title-of-product {
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: .9rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis // This is where the magic happens
+    }
+
+    .product-price {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 170px;
+        background-color: transparent;
+        padding: 2px 0;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+        margin-left: -15px;
+        font-size: 24px;
+        color: #202124;
+        font-family: VazirBold;
+        
+        .toman {
+            color: #aaa;
+            margin-right: 5px;
+            margin-left: 20px;
+            font-family: Vazir;
+            font-weight: 300;
+            font-size: 1rem;
+        }
+    }
+
+    .product-footer {
+        padding: 0 14px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .product-icon {}
+
+    .product-size {
+        color: $mainColor;
+        font-size: .8rem;
+        margin: 10px 0;
+
+    }
+
+    .image-of-product {
+        padding: 20px;
+    }
+
+}
